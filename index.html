@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/logos/favicon.mhtml">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/432784adbf.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>MamaEarth</title>
+    <style>
+        .slider-track {
+            display: flex;
+            transition: transform 0.7s ease-in-out;
+        }
+
+        .slide {
+            flex: 0 0 100%;
+        }
+    </style>
+</head>
+
+<body class="w-full mx-auto">
+    <!-- header section -->
+    <section id="header" class="header-section">
+        <div class="topbar bg-[#f04438] w-full h-8 flex justify-between px-5 py-1 items-center">
+            <a class="text-white text-[12px]" href="#">Asia's 1st Brand with MADE SAFE Certified Products</a>
+            <a class="text-white text-[12px]" href="#">OMG Sale Ends in Few Hours | Buy 1 Get 1 FREE | Use Coupon: OMG |
+                Shop Now</a>
+
+        </div>
+        <div class="midbar flex justify-between items-center px-5 gap-4">
+            <div class="hamburger">
+                <i class="fa-solid fa-bars fa-2xl font-[fontawesome]" style="color: #74C0FC;"></i>
+            </div>
+            <div class="logo">
+                <img class="w-[150px] h-[50px]" src="assets/logos/mamaearth-logo.avif" alt="logo">
+            </div>
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass-plus font-[fontawesome]"></i>
+                <input type="text" name="searchbar" placeholder="search here"
+                       class=" w-[500px] max-w-[400px] p-1 border border-gray-100 ">
+                <button type="button" class="bg-[#00afef] p-1 text-white -m-3 border-[#00AFEF]">
+                    <i class="fa-solid fa-magnifying-glass-plus font-[fontawesome]"></i>Search</button>
+            </div>
+            <div class="badge">
+                <img class="w-[150px] h-[35px]" src="assets/logos/gi-home-button.svg" alt="badge">
+            </div>
+            <div class="icons flex justify-between gap-4">
+                <i class="fa-solid fa-cart-plus font-[fontawesome]" style="color: #00AFEF;"></i>
+                <i class="fa-solid fa-user font-[fontawesome]" style="color: #00AFEF;"></i>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul class="flex text-gray-500 justify-between px-2 py-4">
+                <li class="active hover:text-sky-500 cursor-pointer">Home</li>
+                <li class="hover:text-sky-500 cursor-pointer">Face</li>
+                <li class="hover:text-sky-500 cursor-pointer">Makeup</li>
+                <li class="hover:text-sky-500 cursor-pointer">Body</li>
+                <li class="hover:text-sky-500 cursor-pointer">Baby</li>
+                <li class="hover:text-sky-500 cursor-pointer">Combos</li>
+                <li class="hover:text-sky-500 cursor-pointer">New Launches</li>
+                <li class="hover:text-sky-500 cursor-pointer">Ingredients</li>
+                <li class="hover:text-sky-500 cursor-pointer">All products</li>
+                <li class="hover:text-sky-500 cursor-pointer">Blogs</li>
+                <li class="hover:text-sky-500 cursor-pointer">Store</li>
+            </ul>
+        </nav>
+    </section>
+    <!--Slider section -->
+    <section id="slider" class="slider">
+
+        <div class="relative w-full overflow-hidden shadow-lg">
+            <!-- Slider Container -->
+            <div class="aspect-[16/5]">
+                <div id="sliderTrack" class="slider-track h-full">
+                    <img src="assets/slider/image1.jpg" class="slide w-full h-full object-cover"
+                         alt="Slide 1" />
+                    <img src="assets/slider/image3.jpg" class="slide w-full h-full object-cover"
+                         alt="Slide 1" />
+                    <img src="assets/slider/image4.jpg" class="slide w-full h-full object-cover"
+                         alt="Slide 1" />
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <button id="prevBtn"
+                    class="absolute top-1/2 left-4 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-2 rounded-full shadow w-10 h-10">
+                <img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></i>
+            </button>
+            <button id="nextBtn"
+                    class="absolute top-1/2 right-4 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-2 rounded-full shadow w-10 h-10">
+                <img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></i>
+            </button>
+        </div>
+    </section>
+    <!-- BestSeller section -->
+    <section id="BestSeller" class="bestSeller-section w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Best Seller</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- BabyCare section -->
+    <section id="BabyCare" class="BabyCare-section w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Baby Care</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- Summer Esentials -->
+    <section id="Esentials" class="Esentials-section w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Summer Esentials</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- Skin Care -->
+    <section id="SkinCare" class="SkinCare w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Skin Care</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- Hair Care -->
+    <section id="HairCare" class="HairCare w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Hair Care</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- New Launches -->
+    <section id="NewLaunches" class="NewLaunches w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">New Launches</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+    <!-- Fregrances -->
+    <section id="Fregrances" class="Fregrances w-[90%] mx-auto my-18">
+        <div class="flex items-center my-10">
+            <div class="content basis-240">
+                <h2 class="text-2xl text-gray-700 font-bold">Fregrances</h2>
+                <p>Explore best-selling safe, natural, and 100% toxin-free baby and beauty products from Mamaearth.
+                    Getamazing deals and start your toxin-free skin, hair, and baby care journey.</p>
+            </div>
+            <div class="basis-64 text-center"><button class="py-1 px-3 bg-[#74C0FC]">View All</button>
+            </div>
+
+        </div>
+        <div class="cards carousel relative overflow-hidden">
+            <div class="carousel-track">
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag0.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-0 left-1 bg-green-500 text-white text-xs font-semibold px-2 py-2 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag1.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag2.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag3.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-green-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Top Rated
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag4.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag5.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Trending
+                    </span>
+                </div>
+                <div class="card min-w-[200px] carousel-item">
+                    <div class="content bg-white rounded-lg shadow-md border border-gray-400">
+                        <img class="w-full h-40 object-cover rounded-md mb-3" src="assets/best-seller/imag6.avif"
+                             alt="">
+                        <div class="p-4">
+                            <h2 class="text-lg font-semibold">Milky Soft Body Lotion for Babies with Oats, Milk and
+                                Calendula</h2>
+                            <h3 class="text-md font-semibold text-lime-500">Deeply Nourishes Skin | 24-Hour
+                                Moisturization
+                            </h3>
+                            <h4 class="text-md ">400ml</h4>
+                            <div><span>5.0</span> <span>reviews</span></div>
+                            <h2 class="text-lg font-semibold">₹499</h2>
+                        </div>
+                    </div>
+                    <button class=" w-[100%] -mt-2 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700">Add to
+                        cart</button>
+                    <span
+                          class="absolute top-2 left-2 bg-yellow-500 text-white text-xs font-semibold px-2 py-1 rounded shadow">
+                        Best Seller
+                    </span>
+                </div>
+
+            </div>
+            <button
+                    class="next absolute top-1/2 -right-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-right-gray.svg" alt="right"></button>
+            <button
+                    class="prev absolute top-1/2 -left-2 -translate-y-1/2 bg-white/80 hover:bg-white text-black p-1 rounded-full shadow w-10 h-10"><img
+                     src="assets/icons/chevron-left-gray.svg" alt="left"></button>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="bg-white w-[90%] mx-auto my-18 lg:px-20">
+        <div class="max-w-5xl mx-auto text-left">
+            <!-- Section Heading -->
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Our Story</h2>
+
+            <!-- YouTube Video -->
+            <div class="w-full aspect-w-32 aspect-h-9 mb-8">
+                <iframe class="w-full rounded-xl shadow-lg" height="420"
+                        src="https://www.youtube.com/embed/Iogln3lJA0Y?si=QrC-AweWngvw9tWA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+
+            <!-- Story Content -->
+            <p class="text-black-600 text-sm mb-6">
+                At Mamaearth, we live to spread a little love and goodness every day. We believe that goodness isn’t a
+                superpower, nor a
+                special gift, it’s inside all of us and it shows in the little choices we make. Our mission is to bring
+                you the best of
+                nature through our purest and most nurturing products that are made without any toxins or harmful
+                chemicals. For us
+                goodness also means being good to the earth. Which is why we recycle more plastic than we use and we're
+                PETA Certified -
+                which means we never test on animals. This is our #GoodnessInside.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button
+                        class="px-10 py-3 bg-blue-600 text-white text-sm rounded-lg shadow hover:bg-blue-700 transition">
+                    SHOP NOW
+                </button>
+                <button
+                        class="px-10 py-3 bg-transperent text-blue-500 text-sm border border-blue-500 rounded-lg shadow hover:bg-gray-300 transition">
+                    OUR PLAGES
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner section -->
+    <section
+             id="bannerSection"
+             class="relative bg-cover bg-center bg-no-repeat h-[400px] md:h-[500px] flex items-center justify-center text-center"
+             style="background-image: url('assets/icons/Mobile_home_img.avif');">
+
+        <!-- Content -->
+        <div class="relative z-10 text-white max-w-2xl px-4">
+            <h2 class=" heading relative text-2xl text-black md:text-3xl mb-2">We Plant Goodness</h2>
+            <h2 class="text-3xl text-green-500 font-semibold md:text-5xl font-bold mb-2">956163</h2>
+            <p class="text-lg text-black md:text-xl mb-2">
+                Trees have got life already... <br />
+                Everytime you buy from us, we plant more trees!
+            </p>
+            <a
+               href="#"
+               class="inline-block px-6 py-3 text-white text-sm font-medium rounded-lg transition">
+                <img class="w-50 h-14" src="assets/icons/knowMoreBtn.png" alt="Know More">
+            </a>
+        </div>
+    </section>
+    <!-- Standard Section -->
+    <section class=" py-12 px-4 md:px-8 lg:px-16">
+        <div class=" w-full text-center mb-2">
+            <h2 class="heading relative text-2xl text-black md:text-3xl ">Super Safe Standards</h2>
+        </div>
+
+        <div class="grid md:grid-cols-3 gap-4">
+            <!-- Column 1 -->
+            <div class="flex bg-white rounded-lg shadow overflow-hidden items-center">
+                <div class="w-1/2">
+                    <img
+                         src="assets/Certificate/msafe-100x100.jpg"
+                         alt="Tech"
+                         class="w-30 h-30" />
+                </div>
+                <div class="w-1/2 p-4 flex flex-col justify-center">
+                    <h3 class="text-xl font-semibold mb-2">Made Safe Certificate</h3>
+                    <p class="text-gray-600 text-sm">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Inventore totam tenetur quibusdam fuga
+                        saepe sint qui velit quos, repellendus officiis!
+                    </p>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="flex bg-white rounded-lg shadow overflow-hidden items-center">
+                <div class="w-1/2">
+                    <img
+                         src="assets/Certificate/fda-100x100.jpg"
+                         alt="Business"
+                         class="w-30 h-30 object-cover" />
+                </div>
+                <div class="w-1/2 p-4 flex flex-col justify-center">
+                    <h3 class="text-xl font-semibold mb-2">FDA Approved</h3>
+                    <p class="text-gray-600 text-sm">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla ducimus ipsa labore animi soluta
+                        nemo debitis possimus ut minus earum.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Column 3 -->
+            <div class="flex bg-white rounded-lg shadow overflow-hidden items-center">
+                <div class="w-1/2">
+                    <img
+                         src="assets/Certificate/dermatology-tested-100x100.png"
+                         alt="Creativity"
+                         class="w-30 h-30 object-cover" />
+                </div>
+                <div class="w-1/2 p-4 flex flex-col justify-center">
+                    <h3 class="text-xl font-semibold mb-2">Dermatologically Tested</h3>
+                    <p class="text-gray-600 text-sm">
+                        We ensure each product is tested clinically on the sensitive human skin to ensure that it is not
+                        allergic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-white w-[90%] mx-auto my-18 border border-gray-300">
+
+
+        <!-- Delivery Icons -->
+        <div class="max-w-7xl mx-auto px-4 flex justify-between border-b border-gray-300">
+            <div class="text-gray-400 flex flex-col justify-center align-center border-r py-6 px-4 border-gray-300">
+                <img class="w-10 h-10" src="assets/icons/delivery2x.png" alt="">
+                <h3>Free Shipping</h3>
+                <p>Order above ₹399</p>
+            </div>
+            <div class="text-gray-400 flex flex-col justify-center align-center">
+                <img class="w-10 h-10" src="assets/icons/Group_81512x.png" alt="">
+                <h3>COD Available</h3>
+                <p>Order above ₹350</p>
+            </div>
+            <div class=" flex flex-col justify-center align-center">
+                <h2 class="text-black text-2xl">Have Queries or Concerns?<h2>
+                        <button class="border border-blue-500 rounded-sm py-4 px-10 text-blue-500 mt-2">CONTACT
+                            US</button>
+            </div>
+        </div>
+
+        <div class=" w-full m-0 border border-gray-300">
+            <h2 class="text-gray-600 font-semibold text-xl ">Payments</h2>
+            <p class="text-lime-500 text-sm flex"><img class="w-5 h-5 mr-2"
+                     src="assets/icons/noun_trusted_27146262x_6Ekja92.png" alt="trust">
+                100%
+                Payment Protection, Easy Return Policy</p>
+            <img class="w-[50%] h-10" src="assets/icons/web-payments.png" alt="payments">
+        </div>
+
+        <!-- Footer Links -->
+        <div
+             class="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-sm text-gray-300">
+            <div>
+                <h4 class="text-gray-600 text-xl font-semibold mb-4">Company</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:underline">About Us</a></li>
+                    <li><a href="#" class="hover:underline">Careers</a></li>
+                    <li><a href="#" class="hover:underline">Press</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-gray-600 text-xl font-semibold mb-4">Support</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:underline">Help Center</a></li>
+                    <li><a href="#" class="hover:underline">Contact Us</a></li>
+                    <li><a href="#" class="hover:underline">FAQs</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-gray-600 text-xl font-semibold mb-4">Legal</h4>
+                <ul class="space-y-2 text-gray-400">
+                    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                    <li><a href="#" class="hover:underline">Terms of Use</a></li>
+                    <li><a href="#" class="hover:underline">Security</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-gray-600 text-xl font-semibold mb-4">Get the App</h4>
+                <img class="w-30 h-50" src="assets/icons/Best-Brand500x5002x.png" alt="">
+            </div>
+        </div>
+        <!-- Top: Social Icons -->
+        <div
+             class="max-w-7xl mx-auto px-4 border border-gray-200 pb-6">
+            <div class="flex gap-4 justify-center py-4">
+                <a href="#" class="text-white hover:text-blue-400"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-500 hover:text-pink-500"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-500 hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-500 hover:text-red-600"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="text-gray-500 hover:text-pink-500"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-gray-500 hover:text-blue-300"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="text-gray-500 hover:text-red-600"><i class="fab fa-snapchat"></i></a>
+            </div>
+            <div class="space-y-2 flex md:flex-row justify-center">
+                <a href="#">
+                    <img src="assets/icons/PLAYSTORE18Apr.png"
+                         alt="Play Store" class="h-10" />
+                </a>
+                <a href="#">
+                    <img src="assets/icons/APPSTORE18Apr.png"
+                         alt="App Store" class="h-10" />
+                </a>
+            </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class=" py-4 text-center text-xs text-gray-500">
+            &copy; 2025 Your Company. All rights reserved.
+        </div>
+    </footer>
+
+
+
+    <script>
+        const sliderTrack = document.getElementById('sliderTrack');
+        const totalSlides = sliderTrack.children.length;
+        let currentIndex = 0;
+
+        function updateSlider() {
+            sliderTrack.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+            updateSlider();
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSlider();
+        });
+
+        // Optional: Auto-slide every 5 seconds
+        setInterval(() => {
+            currentIndex = (currentIndex + 1) % totalSlides;
+            updateSlider();
+        }, 5000);
+
+
+        // -------------
+        function setupCarousel(carousel) {
+            const track = carousel.querySelector('.carousel-track');
+            const items = carousel.querySelectorAll('.carousel-item');
+            const nextBtn = carousel.querySelector('.next');
+            const prevBtn = carousel.querySelector('.prev');
+            let index = 0;
+
+            function getVisibleItems() {
+                if (window.innerWidth >= 1024) return 5;
+                if (window.innerWidth >= 768) return 4;
+                if (window.innerWidth < 768) return 2;
+                return 1;
+            }
+
+            function update() {
+                const itemWidth = items[0].getBoundingClientRect().width;
+                track.style.transform = `translateX(-${index * itemWidth}px)`;
+            }
+
+            nextBtn.addEventListener('click', () => {
+                if (index < items.length - getVisibleItems()) {
+                    index++;
+                    update();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                if (index > 0) {
+                    index--;
+                    update();
+                }
+            });
+
+            window.addEventListener('resize', update);
+            window.addEventListener('load', update);
+        }
+
+        // Apply setup to all sliders
+        document.querySelectorAll('.carousel').forEach(setupCarousel);
+
+    </script>
+</body>
+
+</html>

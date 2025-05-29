@@ -1,0 +1,45 @@
+.active {
+    color: #00afef;
+}
+
+/* products slider */
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    padding: 0 5px;
+    position: relative;
+}
+
+@media(min-width: 450px) {
+    .carousel-item {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-item {
+        flex: 0 0 33.333333%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .carousel-item {
+        flex: 0 0 25%;
+    }
+}
+
+#bannerSection .heading::after {
+    content: "";
+    height: 1.69px;
+    width: 45%;
+    position: absolute;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(90deg, rgba(29, 29, 29, 0) 0%, rgba(29, 29, 29, 0.2) 5%, rgba(29, 29, 29, 0.4) 10%, rgba(29, 29, 29, 0.6) 15%, rgba(29, 29, 29, 0.65) 20%, rgba(29, 29, 29, 0.7) 25%, rgba(29, 29, 29, 0.75) 30%, rgb(29, 29, 29) 50%, rgba(29, 29, 29, 0.75) 70%, rgba(29, 29, 29, 0.7) 75%, rgba(29, 29, 29, 0.65) 80%, rgba(29, 29, 29, 0.6) 85%, rgba(29, 29, 29, 0.4) 90%, rgba(29, 29, 29, 0.2) 95%, rgba(29, 29, 29, 0) 100%);
+}
